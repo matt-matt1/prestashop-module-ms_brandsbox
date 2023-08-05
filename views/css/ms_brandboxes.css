@@ -1,0 +1,11 @@
+.brandboxes ul {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	justify-items: center;
+	align-items: center;
+	margin: 0.5em;
+}
+.brandboxes ul li {
+	display: block;
+	background: #fff;
+}

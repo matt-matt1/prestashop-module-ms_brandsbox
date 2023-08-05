@@ -1,0 +1,72 @@
+		/*echo '<!-- getWidgetVariables: '. print_r($retn, true). ' -->';
+{*
+		array(
+			'brands' => $brands,
+			'page_link' => $this->context->link->getPageLink('manufacturer'),
+			//'text_list_nb' => Configuration::get('BRAND_DISPLAY_TEXT_NB'),
+			'text_list_nb' => Configuration::get('BRANDBOXES_NBR'),
+			'brand_display_type' => Configuration::get('BRANDBOXES_STYLE'),
+			'order_brands' => Configuration::get('BRANDBOXES_ORDERBY'),
+			'asc_order' => Configuration::get('BRANDBOXES_ORDER'),
+			//'brand_display_type' => 'brand_text',
+			'display_link_brand' => Configuration::get('PS_DISPLAY_MANUFACTURERS'),
+			'columns' => Configuration::get('BRANDBOXES_COLS'),
+			//'active_only' => Configuration::get('BRANDBOXES_SHOWACT'),
+			'show_name' => Configuration::get('BRANDBOXES_SHOWNAME'),
+			'show_description' => Configuration::get('BRANDBOXES_SHOWDESC'),
+			'show_short' => Configuration::get('BRANDBOXES_SHOWSHORT'),
+			'show_meta_title' => Configuration::get('BRANDBOXES_SHOWMETAT'),
+			'show_meta_description' => Configuration::get('BRANDBOXES_SHOWMETAD'),
+			'onhover' => Configuration::get('BRANDBOXES_ONHOVER'),
+			'display_title' => Configuration::get('BRANDBOXES_TITLELINK'),
+			'title' => Configuration::get('BRANDBOXES_TITLE'),
+		);
+<!-- getWidgetVariables: Array
+(
+    [brands] => Array
+        (
+            [0] => Array
+                (
+                    [id_manufacturer] => 1
+                    [name] => Acer
+                    [date_add] => 2023-07-30 20:01:42
+                    [date_upd] => 2023-07-31 11:35:30
+                    [active] => 1
+                    [description] => 
+                    [short_description] => 
+                    [link_rewrite] => acer
+                    [image] => 1
+                    [link] => https://yumatechnical.com/pshop/brand/1-acer
+                )
+...
+            [17] => Array
+                (
+                    [id_manufacturer] => 21
+                    [name] => Zebra
+                    [date_add] => 2023-07-30 20:01:51
+                    [date_upd] => 2023-07-31 11:37:02
+                    [active] => 1
+                    [description] => 
+                    [short_description] => 
+                    [link_rewrite] => zebra
+                    [image] => 21
+                    [link] => https://yumatechnical.com/pshop/brand/21-zebra
+                )
+
+        )
+
+    [page_link] => https://yumatechnical.com/pshop/brands
+    [text_list_nb] => 8
+    [order_brands] => random
+    [asc_order] => 1
+    [brand_display_type] => band_text
+    [display_link_brand] => 1
+    [columns] => 4
+    [show_name] => 1
+    [show_description] => 1
+    [show_short] => 1
+    [show_meta_title] => 1
+    [show_meta_description] => 
+    [onhover] => {description}
+)
+ -->*/
